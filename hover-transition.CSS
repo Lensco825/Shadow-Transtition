@@ -1,0 +1,19 @@
+/* First we center the Item*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+/* We use transition to put how long the animation is*/
+img {
+  transition: 0.8s;
+  border-radius: 10px;
+}
+/* We then use hover to add what the animation is about and how much */
+img:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  filter: grayscale(0);
+  margin-bottom: 20px;
+}
